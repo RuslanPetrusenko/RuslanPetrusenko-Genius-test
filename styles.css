@@ -1,0 +1,46 @@
+/* Base */
+ul {
+  list-style: none;
+}
+
+/* Button */
+.button {
+  border-radius: 8px;
+  border: 2px solid #819b57;
+  background-color: #819b57;
+  color: #faf4ea;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #465929;
+}
+
+/* Link */
+.link {
+  color: #faf4ea;
+}
+
+.link:hover {
+  color: #819b57;
+}
+
+/* Hero section */
+.hero-title {
+  color: #faf4ea;
+}
+
+.hero-title .accent {
+  color: #819b57;
+}
+
+/* Adventeges section */
+.adventeges-list {
+  color: #faf4ea;
+  background-color: #819b57;
+}
+
+.section-title {
+  color: #31261a;
+}
