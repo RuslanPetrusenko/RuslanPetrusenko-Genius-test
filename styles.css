@@ -1,4 +1,15 @@
+:root {
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+}
+
 /* Base */
+body {
+  --color-primary-dark: #31261a;
+}
+
 ul {
   list-style: none;
 }
@@ -6,41 +17,41 @@ ul {
 /* Button */
 .button {
   border-radius: 8px;
-  border: 2px solid #819b57;
-  background-color: #819b57;
+  border: 2px solid var(--color-brand-light);
+  background-color: var(--color-brand-light);
   color: #faf4ea;
   cursor: pointer;
 }
 
 .button:hover {
   background-color: transparent;
-  color: #465929;
+  color: var(--color-brand-dark);
 }
 
 /* Link */
 .link {
-  color: #faf4ea;
+  color: var(--color-primary-light);
 }
 
 .link:hover {
-  color: #819b57;
+  color: var(--color-brand-light);
 }
 
 /* Hero section */
 .hero-title {
-  color: #faf4ea;
+  color: var(--color-primary-light);
 }
 
 .hero-title .accent {
-  color: #819b57;
+  color: var(--color-brand-light);
 }
 
-/* Adventeges section */
-.adventeges-list {
-  color: #faf4ea;
-  background-color: #819b57;
+/* Adventages section */
+.adventages-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
 }
 
-.section-title {
-  color: #31261a;
+.section-title .accent {
+  color: var(--color-brand-dark);
 }
